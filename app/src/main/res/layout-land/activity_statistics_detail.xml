@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".StatisticsDetail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10">
+        <ScrollView
+            android:id="@+id/scrollStatistics_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:id="@+id/tableStatistics_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+
+                >
+                <TableRow
+                    android:id="@+id/row_statistics_detail_names"
+                    android:layout_marginBottom="5dp">
+                    <TextView
+                        android:id="@+id/p1_name_statistics_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Player1 Name"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="#f1f1f1"
+                        />
+                    <TextView
+                        android:id="@+id/p2_name_statistics_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Player2 Name"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="#f1f1f1"
+                        />
+
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/row_statistics_detail_wons"
+                    android:layout_marginBottom="5dp">
+                    <TextView
+                        android:id="@+id/p1_name_statistics_detail_wons"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="p1Wons"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="#f1f1f1"
+                        />
+                    <TextView
+                        android:id="@+id/p2_name_statistics_detail_wons"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="p2Wons"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="#f1f1f1"
+                        />
+
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/row_statistics_detail"
+                    android:layout_marginBottom="5dp">
+                    <TextView
+                        android:id="@+id/time_statistics_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="#f1f1f1"
+                        />
+                    <TextView
+                        android:id="@+id/p1_goals_statistics_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Player1 Goals"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="#f1f1f1"
+                        />
+
+                    <TextView
+                        android:id="@+id/p2_goals_statistics_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Player2 Goals"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="#f1f1f1"
+                        />
+
+
+
+                </TableRow>
+
+            </TableLayout>
+
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0"
+        android:gravity="center">
+
+
+        <Button
+
+            android:id="@+id/back_statistics_button_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonshape1"
+            android:gravity="center"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="10"
+            android:shadowRadius="5"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/reset_statistics_button_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/buttonshape1"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="10"
+            android:shadowRadius="5"
+            android:text="Reset"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
